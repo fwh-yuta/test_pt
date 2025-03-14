@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ja" class="md:text-pc text-md">
+<head>
+    <meta charset="utf-8">
+    <title>シーズン券購入 | スノーパラダイス</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+    <script async src="https://hlyryymfnhvkomfjeunt.supabase.co/storage/v1/object/public/public-assets/organizations/d358b099-349e-4df1-9ea1-b96529fc79ab/scripts/script.js"></script>
+</head>
+<body class="text-16" id="js-body">
+    <header class="flex px-o-32 py-o-24 md:px-o-68 justify-between" id="js-header">
+        <a href="index.html">
+            <img src="img/img1.jpg" alt="ロゴ" class="w-o-300 md:w-o-200">
+        </a>
+        <img src="img/img2.jpg" alt="企業ロゴ" class="w-o-272 md:w-o-180">
+    </header>
+
+    <!-- メインコンテンツ -->
+    <section class="bg-orange pt-o-12 pb-o-32">
+        <div class="w-o-698 mx-auto md:w-o-1400 mt-o-32 max-w-1200">
+            <h2 class="text-38 md:text-32 text-center font-bold bg-orange text-white">
+                <span class="text-yellow text-48">シーズン券</span>
+                <span class="text-28">購入</span>
+            </h2>
+        </div>
+
+        <div class="w-o-800 mx-auto bg-white p-o-40 rounded-lg mt-o-40">
+            <h3 class="text-32 font-bold text-center text-blue mb-o-24">早割シーズン券情報</h3>
+            
+            <div class="bg-yellow inline-block py-o-8 px-o-16 rounded-full font-bold mb-o-16">
+                <p class="text-24">早割特典：通常料金より20%OFF</p>
+            </div>
+            
+            <table class="w-full border-collapse mb-o-40">
+                <thead class="bg-blue text-white">
+                    <tr>
+                        <th class="p-o-12 border">プラン</th>
+                        <th class="p-o-12 border">通常料金</th>
+                        <th class="p-o-12 border">早割料金</th>
+                        <th class="p-o-12 border">特典</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="p-o-12 border font-bold">スタンダード</td>
+                        <td class="p-o-12 border">¥65,000</td>
+                        <td class="p-o-12 border text-red">¥52,000</td>
+                        <td class="p-o-12 border">全日利用可能</td>
+                    </tr>
+                    <tr>
+                        <td class="p-o-12 border font-bold">プレミアム</td>
+                        <td class="p-o-12 border">¥85,000</td>
+                        <td class="p-o-12 border text-red">¥68,000</td>
+                        <td class="p-o-12 border">全日利用可能 + 駐車場無料 + 優先レーン</td>
+                    </tr>
+                    <tr>
+                        <td class="p-o-12 border font-bold">ファミリー</td>
+                        <td class="p-o-12 border">¥160,000</td>
+                        <td class="p-o-12 border text-red">¥128,000</td>
+                        <td class="p-o-12 border">家族4名まで + 駐車場無料</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="bg-light-orange p-o-20 rounded-lg mb-o-32">
+                <h4 class="text-24 font-bold mb-o-12">早割期間</h4>
+                <p class="text-20">2023年10月1日 〜 2023年11月30日まで</p>
+                <p class="text-16 mt-o-12">※早割期間終了後は通常料金となりますのでご注意ください。</p>
+            </div>
+
+            <form class="bg-light-blue p-o-24 rounded-lg">
+                <h4 class="text-28 font-bold mb-o-20 text-center">シーズン券申込フォーム</h4>
+                
+                <div class="mb-o-16">
+                    <label class="block font-bold mb-o-8">お名前 <span class="text-red">*</span></label>
+                    <input type="text" class="w-full p-o-12 border rounded" required>
+                </div>
+                
+                <div class="mb-o-16">
+                    <label class="block font-bold mb-o-8">メールアドレス <span class="text-red">*</span></label>
+                    <input type="email" class="w-full p-o-12 border rounded" required>
+                </div>
+                
+                <div class="mb-o-16">
+                    <label class="block font-bold mb-o-8">電話番号 <span class="text-red">*</span></label>
+                    <input type="tel" class="w-full p-o-12 border rounded" required>
+                </div>
+                
+                <div class="mb-o-16">
+                    <label class="block font-bold mb-o-8">プラン選択 <span class="text-red">*</span></label>
+                    <select class="w-full p-o-12 border rounded" required>
+                        <option value="">選択してください</option>
+                        <option value="standard">スタンダード ¥52,000</option>
+                        <option value="premium">プレミアム ¥68,000</option>
+                        <option value="family">ファミリー ¥128,000</option>
+                    </select>
+                </div>
+                
+                <div class="mb-o-24">
+                    <label class="block font-bold mb-o-8">備考</label>
+                    <textarea class="w-full p-o-12 border rounded h-o-120"></textarea>
+                </div>
+                
+                <button type="submit" class="bg-yellow text-center text-32 font-bold tracking-o-75 block w-full mx-auto py-o-16 cta_btn_shadow">
+                    申し込む
+                </button>
+                
+                <p class="text-14 mt-o-16 text-center">※お申し込み後、詳細な決済方法についてメールでご案内いたします。</p>
+            </form>
+        </div>
+
+        <div class="w-o-698 mx-auto mt-o-40 text-center">
+            <a href="index.html" class="inline-block text-white text-20 font-bold underline">トップページに戻る</a>
+        </div>
+    </section>
+
+    <footer class="bg-blue text-white py-o-40 text-center">
+        <div class="w-o-800 mx-auto">
+            <p class="text-20 mb-o-16">スノーパラダイス</p>
+            <p class="text-16 mb-o-8">〒123-4567 雪国県スキー市ゲレンデ1-2-3</p>
+            <p class="text-16 mb-o-24">TEL: 0123-456-789（9:00〜18:00）</p>
+            <small class="text-14">© 2023 スノーパラダイス All Rights Reserved.</small>
+        </div>
+    </footer>
+</body>
+</html> 
